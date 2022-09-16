@@ -1,0 +1,28 @@
+name: "Comfort-to-Mqtt"
+version: "0.1.8"
+slug: comfort2mqtt
+description: "A Cytech Comfort Alarm panel Bridge with MQTT"
+url: "https://github.com/nicramage/ha-addons/comfort2mqtt"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+startup: services
+boot: auto
+uart: true
+services:
+  - mqtt:want
+panel_title: Comfort to MQTT
+options:
+  device: "null"
+  comfort_password: ""
+schema:
+  device: "device(subsystem=tty)"
+  comfort_password: str
+  retained_inputs: "match([0-9\\s]+)?"
+  raw_msgs: bool?
+  mqtt_host : str?
+  mqtt_user : str?
+  mqtt_password : str?

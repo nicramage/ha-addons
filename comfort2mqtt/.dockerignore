@@ -1,0 +1,9 @@
+.devcontainer.json
+.dockerignore
+.git
+.vscode
+comfort2mqtt.sh
+config.json
+Dockerfile
+LICENSE
+README.md
