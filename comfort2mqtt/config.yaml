@@ -1,8 +1,8 @@
 name: "Comfort-to-Mqtt"
-version: "0.1.8"
+version: "0.1.9"
 slug: comfort2mqtt
 description: "A Cytech Comfort Alarm panel Bridge with MQTT"
-url: "https://github.com/nicramage/ha-addons/comfort2mqtt"
+url: "https://github.com/nicramage/ha-addons/tree/master/comfort2mqtt"
 arch:
   - armhf
   - armv7
