@@ -3,6 +3,14 @@
 ## About
 This repository contains custom add-ons used in my Home Assistant installation.
 
+## Installation
+
+Use the following URL to add this repository:
+
+```txt
+https://github.com/nicramage/ha-addons
+```
+
 ## Add-ons provided by this repository
 
 ### &#10003; [Comfort to MQTT][comfort2mqtt]
@@ -16,12 +24,12 @@ This repository contains custom add-ons used in my Home Assistant installation.
 
 A Comfort alarm panel / MQTT bridge
 
-[Comfort to MQTT add-on documentation][comfort2mqtt-doc]
+[Comfort-to-MQTT add-on documentation][comfort2mqtt-doc]
 
 
-[comfort2mqtt]: https://github.com/nicramage/ha-addons/comfort2mqtt/
+[comfort2mqtt]: https://github.com/nicramage/ha-addons/tree/master/comfort2mqtt
 [comfort2mqtt-doc]: https://github.com/nicramage/ha-addons/blob/master/comfort2mqtt/DOCS.md
-[comfort2mqtt-version-shield]: https://img.shields.io/badge/version-v0.1-blue.svg
+[comfort2mqtt-version-shield]: https://img.shields.io/badge/version-v0.1.8-blue.svg
 [comfort2mqtt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [comfort2mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [comfort2mqtt-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
