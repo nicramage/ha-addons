@@ -5,13 +5,6 @@ configuration:
   comfort_password:
     name: Comfort password
     description: The password required to login to the Comfort system
-  raw_msgs:
-    name: Raw messages
-    description: >-
-      Determines if unknown MQTT 'comfort/set' messages are passed
-      on to comfort.  Useful for trying new stuff, but should not
-      be enabled in production, as it allows arbitrary comfort
-      command execution
   retained_inputs:
     name: Retained Inputs
     description: >-
@@ -26,3 +19,10 @@ configuration:
   mqtt_password:
     name: MQTT Password
     description: The login password
+  raw_msgs:
+    name: Raw messages
+    description: >-
+      Determines if unknown MQTT 'comfort/set' messages are passed
+      on to comfort.  Useful for trying new stuff, but should not
+      be enabled in production, as it allows arbitrary comfort
+      command execution

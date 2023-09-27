@@ -14,7 +14,7 @@ fi
 
 declare raw_msgs="0"
 if bashio::config.has_value "raw_msgs"; then
-  raw_msgs=$(bashio::config 'retained_inputs')
+  raw_msgs=$(bashio::config 'raw_msgs')
 fi
 
 if bashio::services.available "mqtt"; then
