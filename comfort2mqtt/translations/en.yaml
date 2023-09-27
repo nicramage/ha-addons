@@ -13,7 +13,7 @@ configuration:
       be enabled in production, as it allows arbitrary comfort
       command execution
   retained_inputs:
-    name: Retained Comfort Inputs
+    name: Retained Inputs
     description: >-
       A whitespace-seperated list of Comfort inputs whose values need
       to be retained by the MQTT server
