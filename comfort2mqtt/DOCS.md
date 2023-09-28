@@ -14,6 +14,11 @@ installing any other Home Assistant add-on.
 
 1. Click the "Install" button to install the add-on.
 1. Set at least the serial device and Comfort password in the connfiguration section.
+1. If using the 'Mosquito broker' add-on, it is not necessary to specify any of the MQTT
+   settings, however, you will need to ensure that the 'addons' user has read/write access
+   to the topics published by the [comfort2mqtt service][comfort2mqtt].  See the Mosquito
+   broker's Access Control Lists (ACLs) documentation for details.  In the ACL documentation
+   the example provides full access to all topics for the 'addons' user.
 1. Start the "comfort2mqtt" add-on.
 1. Check the logs of the "Comfort-to-Mqtt" add-on to see it in action.
 
