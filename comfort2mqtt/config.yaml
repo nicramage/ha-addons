@@ -1,5 +1,5 @@
 name: "Comfort-to-Mqtt"
-version: "0.1.11"
+version: "0.1.12"
 slug: comfort2mqtt
 description: "A Cytech Comfort Alarm panel Bridge with MQTT"
 url: "https://github.com/nicramage/ha-addons/tree/master/comfort2mqtt"
